@@ -24,7 +24,7 @@ body {
     padding: 0.5rem;
 }
 
-.hata-kutusu {
+.base {
     width: 100%;
     max-width: 50rem;
     background-color: #181818;
@@ -34,13 +34,13 @@ body {
     box-shadow: 0 0 2rem rgba(0,0,0,.8);
 }
 
-.hata-numara {
+.second {
     color: #fff;
     font-size: 3.6rem;
     text-transform: uppercase;
 }
 
-.hata-mesaj {
+.third {
     display: inline-block;
     background-color: #fff;
     font-size: 2rem;
@@ -48,7 +48,7 @@ body {
     padding: 1rem;
 }
 
-.hata-aciklama {
+.fourth {
     color: #eee;
     font-size: 1.4rem;
     margin-top: 2.5rem;
@@ -56,7 +56,7 @@ body {
     letter-spacing: 1px;
 }
 
-.hata-link {
+.link {
     text-decoration: none;
     color: #957c09;
     font-size: 1.7rem;
@@ -65,26 +65,26 @@ body {
     transition: background-color .5s;
 }
 
-.hata-link:hover {
+.link:hover {
     background-color: #957c09;
     color: #fff;
 
 }
 
 @media screen and (min-width: 768px) {
-    .hata-kutusu {
+    .base {
         max-width: 70rem;
     }
-    .hata-numara {
+    .second {
         font-size: 6rem;
     }
-    .hata-mesaj {
+    .third {
         font-size: 3.5rem;
     }
-    .hata-aciklama {
+    .fourth {
         font-size: 3rem;
     }
-    .hata-link {
+    .link {
         font-size: 3rem;
     }
 }
@@ -93,15 +93,15 @@ body {
 
 </head>
 <body>
-    <div class="hata-kutusu">
+    <div class="base">
         
      
-        <h2 class="hata-numara">404!</h2>
+        <h2 class="second">404!</h2>
         
-        <p class="hata-aciklama">
+        <p class="fourth">
             Maybe this page moved? Got deleted? Is hiding out in quarantine?<br> Never existed in the first place?
         </p>
-        <a href="#" class="hata-link">home</a>
+        <a href="#" class="link">home</a>
     </div>
 </body>
 </html>
