@@ -4,25 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Not Found</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Chango&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
-        $bg: #11111b;
-$red: #ff6778;
-$green: #afd33d;
-$blue: #1122ff;
-$text: $green;
-
-@function font($to, $from, $toWidth, $fromWidth) {
-    $slope: ($to - $from) / ($toWidth - $fromWidth);
-    $base: $from - $slope * $fromWidth;
-    @return calc(#{$base} + #{100vw * $slope});
-}
-@mixin dotgrid($dot: #aaa,$dot-background: #000,$dot-size: 1px,$dot-spacing: 22px) {
-    background: linear-gradient(90deg, $dot-background ($dot-spacing - $dot-size), transparent 1%) center, linear-gradient($dot-background ($dot-spacing - $dot-size), transparent 1%) center, $dot;
-    background-size: $dot-spacing $dot-spacing;
-    background-position: center;
-}
+       
 
 :root {
 	box-sizing: border-box;
